@@ -19,7 +19,6 @@ Please read on for details of my logging procedures:
 
 - Create markdown file and name it based on content. Ensure file name does not have any spaces and name it well.
 - Always have a heading for TIL markdown files.
-- 
 - Commit and push to reflect changes on remote repository.
 
 ## Prerequisites
