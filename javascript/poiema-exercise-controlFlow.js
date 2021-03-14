@@ -14,9 +14,7 @@ if (x > 10 && x < 20) {
 // #2. for문을 사용하여 0부터 10미만의 정수 중에서 짝수만을 작은 수부터 출력하시오.
 console.log('Question 2:');
 for (var i = 0; i < 10; i++){
-    if (i%2 == 0) {
-    console.log(i);
-    }
+    if (i%2 == 0) console.log(i);
 }
 
 // #3. for문을 사용하여 0부터 10미만의 정수 중에서 짝수만을 작은 수부터 문자열로 출력하시오.
@@ -25,9 +23,7 @@ console.log('Question 3:');
 evenNum = "";
 
 for (var i = 0; i < 10; i++){
-    if (i%2 == 0){
-        evenNum += i;
-    }
+    if (i%2 == 0) evenNum += i;
 }
 
 console.log(evenNum);
@@ -36,9 +32,7 @@ console.log(evenNum);
 console.log('Question 4:');
 
 for (var i = 10; i > 0; i--){
-    if (i%2 != 0){
-        console.log(i);
-    }
+    if (i%2 != 0) console.log(i);
 }
 
 // #5. while문을 사용하여 0 부터 10 미만의 정수 중에서 짝수만을 작은 수부터 출력하시오.
@@ -47,9 +41,7 @@ console.log('Question 5:');
 var num = 0;
 
 while (num < 10){
-    if (num%2 == 0){
-        console.log(num);
-    }
+    if (num%2 == 0) console.log(num);
     num++;
 }
 
@@ -59,9 +51,7 @@ console.log('Question 6:');
 var num = 10;
 
 while (num > 0){
-    if (num%2 != 0){
-        console.log(num);
-    }
+    if (num%2 != 0) console.log(num);
     num--;
 }
 
@@ -107,8 +97,6 @@ console.log('Questions 10:');
 
 for (var i = 1; i <= 6; i++){
     for (var j = 6; j >= 1; j--){
-        if (i + j == 6){
-            console.log([i,j])
-        }
+        if (i + j == 6) console.log([i,j]);
     }
 }
